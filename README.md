@@ -1,3 +1,5 @@
 # NNDigits
-Midterm Digits project
-Will try to update as needed. 
+Midterm Digits project.
+
+Will \emph{try} to update as needed. 
+
