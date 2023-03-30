@@ -1,5 +1,4 @@
 # NNDigits
 Midterm Digits project.
 
-Will \emph{try} to update as needed. 
-
+Will try to update as needed. 
