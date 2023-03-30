@@ -3,4 +3,4 @@ Midterm Digits project.
 
 Will try to update as needed. 
 
-$e^{i*pi} + 1 = 0$
+$e^{i \dot \Pi} + 1 = 0$
