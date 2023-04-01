@@ -11,7 +11,7 @@ XTest = processImagesMNIST(filenameImagesTest);
 YTest = processLabelsMNIST(filenameLabelsTest);
 
 % Generate the Rotation Net and load it.
-% genrotnet;
+genrotnet;
 
 load TestNet.mat;
 rotlayers = net.Layers(1:8);
