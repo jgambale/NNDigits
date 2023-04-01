@@ -16,7 +16,7 @@ classdef RotationLayer < nnet.layer.Layer
 
         function XR = predict(layer, in1, in2)
             % Can technically make this setup better if height/width were
-            % properties of the layer (using the inputparse, but this'll
+            % properties of the layer (using the inputparse), but this'll
             % do for now.
             MBS = numel(in2)/784;
             for i=1:MBS
