@@ -1,6 +1,4 @@
 # NNDigits
 Midterm Digits project.
 
-Will try to update as needed. 
-
-$e^{i \pi} + 1 = 0$
+So far it has done what I need it to do.
