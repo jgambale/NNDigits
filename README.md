@@ -19,6 +19,8 @@ RotationLayer.m is a custom 2-input layer (of image/angle) that performs the rot
   I chose to add a version of freezeWeights to your code, as it is floating on the internet.
 * genrotate returns values but they are unassigned. The function does work by saving the net.
   That is, the function has side effects which should come with a big warning to the user (like: me).
-* Include a short summary of results?
+* Include a short summary of results? 
+* Good job. You're quite austere network achieved good result (I did not run the training to the max, but I got some
+  98-99%.
   
 ## Score: 100%  
