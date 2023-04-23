@@ -21,6 +21,6 @@ RotationLayer.m is a custom 2-input layer (of image/angle) that performs the rot
   That is, the function has side effects which should come with a big warning to the user (like: me).
 * Include a short summary of results? 
 * Good job. You're quite austere network achieved good result (I did not run the training to the max, but I got some
-  98-99%.
+  97.6%. It would be good if you reported on your final result and compared rotation vs. no rotation.
   
 ## Score: 100%  
