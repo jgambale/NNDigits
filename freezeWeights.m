@@ -1,4 +1,3 @@
-
 function layers = freezeWeights(layers)
 % freezeWeights - set learning rate of layers to 0
 % LAYERS = FREEZEWEIGHTS(LAYERS) sets the learning rates of all the
