@@ -1,7 +1,9 @@
-% layers = freezeWeights(layers) sets the learning rates of all the
-% parameters of the layers in the layer array |layers| to zero.
 
 function layers = freezeWeights(layers)
+% freezeWeights - set learning rate of layers to 0
+% LAYERS = FREEZEWEIGHTS(LAYERS) sets the learning rates of all the
+% parameters of the layers in the layer array |layers| to zero.
+
 
 for ii = 1:size(layers,1)
     props = properties(layers(ii));
