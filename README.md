@@ -14,4 +14,6 @@ RotationLayer.m is a custom 2-input layer (of image/angle) that performs the rot
 
 * processImagesMNIST is not a MATLAB built-in function. You must provide it for the code to run.
   See: [this link](https://www.mathworks.com/matlabcentral/answers/514716-i-cannot-find-the-helper-functions-processimagesmnist-and-processlabelsmnist)
-* 
+* Same applies to freezeWeights (in my version of MATLAB, 2022b); but it is easy to freeze the weight, as in this example:
+                  convolution2dLayer(3,1,'Padding',[1 1 1 1],'WeightLearnRateFactor',0); 
+  I chose to add a version of freezeWeights to your code, as it is floating on the internet.
