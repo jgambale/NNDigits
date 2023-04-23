@@ -18,6 +18,6 @@ RotationLayer.m is a custom 2-input layer (of image/angle) that performs the rot
                   convolution2dLayer(3,1,'Padding',[1 1 1 1],'WeightLearnRateFactor',0); 
   I chose to add a version of freezeWeights to your code, as it is floating on the internet.
 * genrotate returns values but they are unassigned. The function does work by saving the net.
-  That is, the function has side effects which should come with a big warning to the user (me, in this case).
+  That is, the function has side effects which should come with a big warning to the user (like: me).
   
 ## Score: 100%  
